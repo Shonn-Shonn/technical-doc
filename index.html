@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main id="main-doc">
+        <section class="main-section">
+           <header>
+              <nav id="nav-bar">
+                <ul>
+                    <h2>HTML</h2>
+                    <li><a href="#html-basic">HTML Basics</a></li>
+                    <li><a href="#html-tuto">HTML Tutorial</a></li>
+                    <li><a href="#html-ta">HTML Tables</a></li>
+                    <li><a href="#html-form">HTML forms</a></li>
+                    <li><a href="#html-ref">HTML reference</a></li>
+                    <h6><a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics">Source from MDN Web Docs</a></h6>
+                </ul>
+              </nav>
+           </header>
+        </section>
+        <section class="main-section one" id="html-bas">
+           <div class="first">
+            <h1>HTML: HyperText Markup Language</h1>
+            <p>HTML(HyperText Markup Language) is the most basic building block of the Web.It defines the meaning and 
+                structure of web content.Other techologies besides HTML are generally used to describe a web page's apperance/presentation or functionality behavior.👌
+            </p><hr>
+            <p>
+                HTML uses "markup" to annotate text,images, and other content for display in a Web browser.
+                HTML markup includes special "elements" such as <code><span>&lt;head&gt;,</span>,<span>&lt;/head&gt;</span>,
+                <span>&lt;body&gt;</span>,<span>&lt;header&gt;</span>,<span>&lt;footer&gt;</span>,<span>&lt;article&gt;</span>,<span>&lt;section&gt;</span>,
+                <span>&lt;p&gt;</span>,<span>&lt;div&gt;</span>,<span>&lt;span&gt;</span>,<span>&lt;img&gt;</span>,<span>&lt;aside&gt;</span>,
+                <span>&lt;audio&gt;</span>,<span>&lt;canvas&gt;</span>,<span>&lt;datalist&gt;</span>,<span>&lt;details&gt;</span>,<span>&lt;embed&gt;</span>,
+                <span>&lt;nav&gt;</span>,<span>&lt;output&gt;</span>,<span>&lt;progress&gt;</span>,<span>&lt;video&gt;</span>,
+                <span>&lt;ul&gt;</span>,<span>&lt;ol&gt;</span>,<span>&lt;li&gt;</span>
+            </code> and many others.😎
+            </p>
+            <hr>
+            <p>
+                An HTML element is set off from other text in a document by "tags",which consist of the element name 
+                surrounded by <code>"<span>&lt;</span>" and "<span>&gt;</span>"</code>.The name of an element inside a tag is case insensitive.
+                That is,it can be written in uppercase, lowercase, or a mixture.For example, the 
+                <code><span>&lt;title&gt;</span></code> tag can be written as <code><span>&lt;Title&gt;</span>,<span>&lt;TITLE&gt;</span>,</code> or 
+                in any other way.
+            </p><hr>
+            <div id="html-basic">
+                <p>HTML(<strong>H</strong>yper<strong>t</strong>ext <strong>M</strong>arkup <strong>L</strong>anguage) is the code that is used to structure a web page and its
+                content.For example, content could be structured within a set of paragraphs, a list of bulleted points, or using images and data tables.As the title suggests, this article will give you a basic 
+                understanding of HTML and its function.</p>
+                <h2>So what is HTML?🤔</h2>
+                <p>HTML is a markup language that defines the structure of your content.HTML consists of a series of 
+                    elements,which you use to enclose,or wrap,different parts of the content to make it appera a certain way, or act a certain way.
+                    The enclosing tags can make a word or image hyperlink to somewhere else, can italicize words, can make the font bigger or smaller, and so on.
+                    For example, take the following line of content.
+                </p>
+                <div class="cat">
+                    <p>My cat is very grumpy.</p>
+                </div>
+                <div class="open">
+                    <h3>The main parts of our element are as follows:</h3>
+                    <ol>
+                        <li>1. <strong>The opening tag:</strong>This consists of the name of the element(in this case,p), wrapped in opening and closing angle brackets.
+                        This states where the element begins or starts to take effect,in this case where the paragraph begins.</li><br>
+                        <li>2.<strong>The closing tag:</strong>This is the same as the opening tag, except that it includes a forward slash before 
+                            the element name. This states twhere the element ends,in this case where the paragraph ends.Failing to add a closing tag is one of the standard beginner errors and 
+                            can lead to strange results. <br>
+                        </li><br>
+                        <li>3.<strong>The content:</strong>This is the content of the element, which in this case,is just text.</li><br>
+                        <li>4.<strong>The element:</strong>The opening tag, the closing tag, and the content together comprise the element.</li><br>
+                    </ol>
+                </div>
+            </div>
+           </div>
+        </section>
+        <section class="main-section two" id="html-tuto">
+            <div class="second">
+                <h1>Prerequisites</h1>
+                <p>Before starting this topic,you should have at least basic familiarity with using computers and 
+                    using the web passively(i.e.just looking at it,consuming the content).You should have a basic work environment set up as detailed in Installing basic software,
+                    and understand how to create and manage files, as detailed in Dealing with files --- both are parts of our Getting started with the web complete beginners's module.
+                </p>
+                <p>
+                    It is recommended that you work through Getting started with the web before attempting this topic. However, this isn't absolutely necessary; much of what is covered in the HTML basics article is also covered in our Introduction to HTML module, albeit in a lot more detail.
+                </p>
+            </div>
+            <div class="cs-ja">
+                <ul>
+                    <li>CSS, and how to use it to style HTML (for example alter your text size and fonts used, add borders and drop shadows, layout your page with multiple columns, add animations and other visual effects.)</li>
+                    <li>JavaScript, and how to use it to add dynamic functionality to web pages (for example find your location and plot it on a map, make UI elements appear/disappear when you toggle a button, save users' data locally on their computers, and much more.)</li>
+                </ul>
+            </div>
+        </section>
+        <section class="main-section " id="html-ta">
+            <div class="third">
+                <h1>HTML Tables</h1>
+                <p>A very common task in HTML is structuring tabular data, and it has a number of elements and attributes for just this purpose. Coupled with a little CSS for styling, HTML makes it easy to display tables of information on the web such as your school lesson plan, the timetable at your local swimming pool, or statistics about your favorite dinosaurs or football team. This module takes you through all you need to know about structuring tabular data using HTML.</p>
+                <h2>What is table?</h2>
+                <p id="table">A table is a structured set of data made up of rows and columns (tabular data). A table allows you to quickly and easily look up values that indicate some kind of connection between different types of data, for example a person and their age, or a day of the week, or the timetable for a local swimming pool.</p>
+                <h2>Table styling</h2>
+                <p>You can also have a look at the live example on GitHub!One thing you'll notice is that the table does look a bit more readable there- this is because the table you see above on this page has minimal styling,whereas the GitHub version has omore significant CSS applied.</p>
+                <p>Be under no illusion; for tables to be effective on the web, you need to provide some styling information with CSS, as well as good solid structure with HTML. In this module we are focusing on the HTML part; to find out about the CSS part you should visit our Styling tables article after you've finished here.</p>
+                <p>We won't focus on CSS in this module, but we have provided a minimal CSS stylesheet for you to use that will make your tables more readable than the default you get without any styling. You can find the stylesheet here, and you can also find an HTML template that applies the stylesheet — these together will give you a good starting point for experimenting with HTML tables.</p>
+                <h1>Providing common styling to columns</h1>
+                <h2>Styling without &lt;col&gt;</h2>
+                <p>
+                   There is one last feature we'll tell you about in this article before we move on.HTML has a method of defining styling information for an entire column of data all in one place,the 
+                   &lt;col&gt;and &lt;colgroup&gt; elements. These exist because it can be a bit annoying and inefficient having to specify styling on columns,you generally have to specify your styling information on every 
+                   &lt;td&gt; or &lt;th&gt; in the column,or use a complex selector such as :nth-child.
+                </p>
+            </div>
+        </section>
+        <section class="main-section" id="html-form">
+            <div class="fourth">
+                <h1>HTML forms in legacy browsers</h1>
+                <p>All web develpmers learn very quickly (and sometimes painfully) that the Web is a very rough place for them.Our worst curse is legacy browsers.Okay,let's admit it,when we said "legacy browser"
+                    we all have in mind Safari or old versions of Internet Explorer, but they are far from the only ones.In the mobile world,when neither the browser nor the OS can be updated such as an older Android phones or iPhones,
+                    the stock browsers that don't update are also legacy browsers.
+                </p>
+                <p>
+                    Dealing with this wilderness is part of the job.Fortunately,there are a few tricks to know that can help you to solve most of the problems 
+                    caused by legacy browsers.And HTML5 <span>&lt;input&gt;</span> types don't fail when not supported:they fall back to type="text".
+                </p>
+                <h2>Make things simple</h2>
+                <p>
+                    Because HTML forms involves complex interaction, there is one rule of thumb: keep it simple, also known as the "KISS principal". There are so many cases where we want forms that are "nicer" or "with advanced functionality", but building efficient HTML Forms is not a question of design or technology. Rather, it's about simplicity, intuitiveness, and ease of user interaction. The tutorial, forms usability on UX For The Masses, explains it well.
+                </p>
+                <h2>HTML input types</h2>
+                <p>The input types added in HTML5 are all useable, even in ancient browsers, because the way they degrade is highly predictable.If a browser does not know the value of the type attribute of an <span>&lt;input&gt;</span>
+                element,it will fall back as if the value were text.</p>
+            </div>
+            
+        </section>
+        <section class="main-section" id="html-ref">
+            <div class="fifth">
+                <h1>Let go of CSS</h1>
+                <p>One of the big issues with HTML Forms is styling form widgets with CSS. Form controls appearance is browser and operating system specific. For example, the input of color type looks different in Safari, Chrome and Firefox browser, but the color picker widget is the same in all browsers on a device as it opens up the operating system's native color picker.</p>
+                <p>It's generally a good idea to not alter the default apperance of form control because altering one CSS property value may alter some input types but not others.For example,if you declare <code>input {font-size: 2rem;}</code>,it will impact number,date,and text, but not color or range.If you
+                alter a property,that may impact the apperance of the widget in unexpected ways.For example,[value] {background-color:#ccc;} may have been used to target every &lt;input&gt; with a value attribute,but changing the background-color or border radius on a &lt;meter&gt; will lead to likely 
+            unexpected results that differ across browsers.You can declare apperance: none; to remove the browser styles,but that generally defeats the purpose: as you lose all styling,removing the default look and feel your visitors are used to.</p>
+                <p>To summarize, when it comes to styling form control widgets, the side effects of styling them with CSS can be unpredictable. So don't. As you can see from the complexity of the Property compatibility table for form widgets article, it's very difficult. Even if it's still possible to do a few adjustments on text elements (such as sizing or font color), there are always side effects. The best approach remains to not style HTML Form widgets at all. But you can still apply styles to all the surrounding items. And, if you must alter the default styles of your form widgets, define a style guide to ensure consistency among all your form controls so user experience is not destroyed. You can also investigate some hard techniques such as rebuilding widgets with JavaScript. But in that case, do not hesitate to charge your client for such foolishness.</p>
+                <h1>Feature detection and polyfills</h1>
+                <p>CSS and JavaScript are awesome technologies, but it's important to ensure you don't break legacy browsers. Before using features that aren't fully supported in the browsers your targeting, you should feature detect:</p>
+                <h2>The Modernizr library</h2>
+                <p>There are many cases where a good "polyfill" can help a lot by providing a missing API. A polyfill is a bit of JavaScript that "fills in the holes" in the functionality of legacy browsers. While they can be used to improve support for any functionality, using them for JavaScript is less risky than for CSS or HTML; there many cases where JavaScript can break (network issues, script conflicts, etc.). But for JavaScript, if you work with unobstructive JavaScript in mind, if polyfills are missing, it's no big deal.</p>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
